@@ -1,0 +1,28 @@
+/* mobile view */
+@media screen and (max-width: 600px) {
+    header {
+        margin: 10px;
+    }
+
+    nav {
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .heading img {
+        width: 34px;
+        height: 28px;
+    }
+
+    .nav-title {
+        font-size: 1.2rem;
+    }
+
+    .ul li {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+    }
+}
