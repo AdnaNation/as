@@ -304,11 +304,18 @@ button {
     display: flex;
     gap: 40px;
     margin-top: 50px;
+    width: 100%;
+    align-items: center;
 }
 
 .perfect-place-content {
-    width: 45%;
+    width: 46%;
 }
+
+.perfect-place-content button {
+    margin-top: 20px;
+}
+
 
 .perfect-place-content li {
     color: #131318;

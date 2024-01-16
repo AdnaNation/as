@@ -165,16 +165,21 @@
     .perfect-place {
         flex-direction: column;
         margin: 0 10px;
+        gap: 0px;
     }
 
     .perfect-place-content {
         width: 100%;
     }
 
+    .perfect-place-content button {
+        margin-top: 10px;
+    }
+
     .vedio-content {
-        transform: scaleX(0.8);
+        transform: scale(0.7);
         position: relative;
-        right: 35px;
+        right: 10px;
     }
 
 
