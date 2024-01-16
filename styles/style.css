@@ -117,7 +117,7 @@ button {
 
 }
 
-form button {
+.btn-primary {
     color: #FFF;
     background-color: #FF5400;
 }
@@ -126,16 +126,37 @@ form button {
 /* Popular section */
 .popular-tours {
     display: flex;
+    gap: 100px;
 }
 
 .section-title {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
+    margin-top: 3px;
 }
 
 .text-description {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
+}
+
+/* .popular-tours-content,
+.popular-tours-img {
+    border: 1px solid purple;
+} */
+
+.popular-tours-content {
+    padding: 0 10px 30px;
+}
+
+.popular-tours-content li {
+    margin-left: 10px;
+}
+
+.popular-tours-content button {
+    width: 120px;
+    text-align: center;
+    padding: 1rem 0;
 }

@@ -62,4 +62,14 @@
         width: calc(100% - 33px);
     }
 
+    .popular-tours {
+        flex-direction: column;
+        margin: 10px;
+        gap: 0;
+    }
+
+    .popular-tours-img img {
+        width: 100%;
+    }
+
 }
