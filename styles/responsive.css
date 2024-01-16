@@ -161,6 +161,22 @@
         display: none;
     }
 
+    /* perfect place styles */
+    .perfect-place {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .perfect-place-content {
+        width: 100%;
+    }
+
+    .vedio-content {
+        transform: scaleX(0.8);
+        position: relative;
+        right: 35px;
+    }
+
 
 
 }
