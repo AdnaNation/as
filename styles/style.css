@@ -12,7 +12,8 @@ body {
 }
 
 /* header styles */
-header {
+header,
+.popular-tours {
     max-width: 1100px;
     margin: 20px 130px;
 
@@ -119,4 +120,22 @@ button {
 form button {
     color: #FFF;
     background-color: #FF5400;
+}
+
+/* main section styles */
+/* Popular section */
+.popular-tours {
+    display: flex;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.text-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
 }

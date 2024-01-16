@@ -59,7 +59,7 @@
     }
 
     form input[type="text"] {
-        width: 238.8px;
+        width: calc(100% - 33px);
     }
 
 }
