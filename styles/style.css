@@ -7,6 +7,16 @@ body {
     margin: 0 auto;
 }
 
+header,
+.popular-tours,
+.destination,
+.our-quality {
+    max-width: 1100px;
+    margin: 20px 130px;
+
+}
+
+
 .primary-color {
     color: #FF5400;
 }
@@ -24,13 +34,6 @@ body {
 }
 
 /* header styles */
-header,
-.popular-tours,
-.destination {
-    max-width: 1100px;
-    margin: 20px 130px;
-
-}
 
 nav {
     display: flex;
@@ -247,4 +250,28 @@ button {
     grid-row: 3;
     grid-column: span 12;
     background-image: url('../Images/Rectangle\ 10.png');
+}
+
+/* our quality section styles */
+.our-quality .section-title,
+.our-quality .text-description {
+    text-align: center;
+}
+
+.two-quality {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quality-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quality {
+    border: 1px solid purple;
+
 }
