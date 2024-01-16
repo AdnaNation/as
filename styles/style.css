@@ -11,7 +11,8 @@ header,
 .popular-tours,
 .destination,
 .our-quality,
-.perfect-place {
+.perfect-place,
+.news-letter {
     max-width: 1100px;
     margin: 20px 130px;
 
@@ -32,6 +33,13 @@ header,
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.quality-title,
+.news-letter-tittle {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
 /* header styles */
@@ -293,11 +301,7 @@ button {
     height: 50px;
 }
 
-.quality-title {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
+
 
 /* perfect place section styles */
 .perfect-place {
@@ -329,4 +333,78 @@ button {
     text-align: center;
     padding-left: 10x;
     padding-right: 0;
+}
+
+/* newsletter section styles */
+.news-letter {
+    display: flex;
+    gap: 20px;
+}
+
+.news-letter-box {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px 20px 0 20px;
+    width: 40%;
+    height: calc(100% - 20px);
+}
+
+.news-letter-tittle {
+    margin-top: 0;
+}
+
+
+.news-letter form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+}
+
+form hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 100%;
+}
+
+.news-letter form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    padding-right: 0;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.discount-ad {
+    width: 60%;
+    height: 100%;
+}
+
+.discound-img img {
+    width: 100%;
+}
+
+.discound {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 42%;
+    color: #FFF;
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    left: 260px;
+    transform: translateY(-120px) rotate(-30deg) translateX(100px);
+}
+
+.discound h4 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.discound h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 10px 0;
 }

@@ -177,9 +177,33 @@
     }
 
     .vedio-content {
-        transform: scale(0.5);
+        transform: scale(0.45);
         position: relative;
         right: 10px;
+    }
+
+    /* newsletter section */
+    .news-letter {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .discount-ad {
+        width: 100%;
+    }
+
+    .news-letter-box {
+        width: 90%;
+    }
+
+    .news-letter-box input[type="text"] {
+        width: 100%;
+    }
+
+    .discound {
+        position: relative;
+        left: 120px;
+        top: -20px;
     }
 
 
