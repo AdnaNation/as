@@ -48,8 +48,8 @@
     }
 
     header {
-        min-height: 600px;
-        background-repeat: repeat;
+        min-height: 500px;
+        margin-top: 0;
     }
 
     form input,
@@ -71,5 +71,38 @@
     .popular-tours-img img {
         width: 100%;
     }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .text-description {
+        font-size: 0.9rem;
+    }
+
+    /* destination section */
+    .destination {
+        margin: 0 10px;
+    }
+
+    .destination-pic-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic {
+        width: 180%;
+        border: 1px solid red;
+        position: relative;
+        right: 70px;
+        transform: scaleX(1.25);
+    }
+
+    #pic-5 {
+        position: relative;
+        right: 70px;
+        transform: scaleX(1.25);
+    }
+
 
 }
