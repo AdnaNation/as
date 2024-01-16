@@ -81,28 +81,7 @@
     }
 
     /* destination section */
-    /* .destination {
-        margin: 0 10px;
-    }
 
-    .destination-pic-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .pic {
-        width: 180%;
-        border: 1px solid red;
-        position: relative;
-        right: 70px;
-        transform: scaleX(1.25);
-    }
-
-    #pic-5 {
-        position: relative;
-        right: 70px;
-        transform: scaleX(1.25);
-    } */
     .destination-pic-container {
         grid-template-rows: repeat(6, 1fr);
         justify-content: center;
@@ -158,6 +137,28 @@
         grid-row: 7;
         grid-column: span 1;
     }
+
+    /* our quality section` */
+    .our-quality {
+        margin: 10px 10px;
+    }
+
+    .two-quality {
+        flex-direction: column;
+    }
+
+    .quality-container {
+        width: 100%;
+    }
+
+    #none {
+        display: block;
+    }
+
+    #third {
+        display: none;
+    }
+
 
 
 }

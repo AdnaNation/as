@@ -264,6 +264,10 @@ button {
     gap: 10px;
 }
 
+#none {
+    display: none;
+}
+
 .quality-container {
     display: flex;
     align-items: center;
@@ -272,6 +276,24 @@ button {
 }
 
 .quality {
-    border: 1px solid purple;
+    padding: 20px;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 
+}
+
+#third {
+    width: 50%;
+}
+
+.quality img {
+    width: 50px;
+    height: 50px;
+}
+
+.quality-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
