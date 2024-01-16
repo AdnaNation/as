@@ -25,4 +25,41 @@
     .menubar {
         display: block;
     }
+
+    /* banner section */
+    .banner-content-container {
+        padding: 1rem;
+    }
+
+    .banner-title {
+        font-size: 2.4rem;
+        margin: 2px;
+    }
+
+    .banner-description {
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+
+    form {
+        flex-direction: column;
+        margin: 0 1rem;
+        padding: 1rem;
+    }
+
+    header {
+        min-height: 600px;
+        background-repeat: repeat;
+    }
+
+    form input,
+    select,
+    button {
+        width: 100%;
+    }
+
+    form input[type="text"] {
+        width: 238.8px;
+    }
+
 }

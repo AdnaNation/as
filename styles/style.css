@@ -68,15 +68,55 @@ li a {
 
 /* banner styles */
 .banner {
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    border-radius: 0.5rem 1rem 1rem 0.5rem;
 }
 
 .banner-content-container {
     padding: 5rem;
+    text-align: center;
 }
 
 .banner-title {
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1.5rem;
+    margin: 0 100px;
+
+}
+
+form input,
+select,
+button {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 6rem;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem 1rem 0.2rem;
+    flex: 1;
+
+}
+
+form button {
+    color: #FFF;
+    background-color: #FF5400;
 }
