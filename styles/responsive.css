@@ -182,6 +182,21 @@
         right: 10px;
     }
 
+    /* feedback styless */
+    .feedback {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .feedback-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .client-feedback {
+        width: 100%;
+        padding: 10px;
+    }
+
     /* newsletter section */
     .news-letter {
         flex-direction: column;

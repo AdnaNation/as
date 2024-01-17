@@ -335,6 +335,59 @@ button {
     padding-right: 0;
 }
 
+/* feedback section styles */
+.feedback {
+    max-width: 1100px;
+    margin: 50px 130px;
+}
+
+.feedback .section-title,
+.feedback .text-description {
+    text-align: center;
+    margin: 0 0;
+}
+
+.feedback-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+.client-feedback {
+    padding: 2rem 2rem 0 2rem;
+    width: 88%;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(19, 14, 9, 0.05);
+}
+
+.client-feedback img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.input-feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-feedback input {
+    border: 0;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: 700;
+    margin-bottom: 5px;
+}
+
+.input-feedback input[type="text"] {
+    background: rgba(19, 14, 9, 0.05);
+}
+
+
 /* newsletter section styles */
 .news-letter {
     display: flex;
